@@ -1,0 +1,17 @@
+package com.java.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class NameTest {
+	Employee emp=new Employee();
+	String[] s1={"JULY","ROSY","RICKY"};
+
+	@Test
+	public final void testAddName() {
+		System.out.println("Inside Name");
+		assertArrayEquals(s1, emp.addName());
+	}
+
+}

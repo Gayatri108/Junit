@@ -1,0 +1,17 @@
+package com.java.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CityTest {
+	Employee emp=new Employee();
+	String[] s1={"BLR","HYB","BBSR"};
+
+	@Test
+	public final void testAddCity() {
+		System.out.println("Inside city");
+		assertArrayEquals(s1, emp.addCity());
+	}
+
+}

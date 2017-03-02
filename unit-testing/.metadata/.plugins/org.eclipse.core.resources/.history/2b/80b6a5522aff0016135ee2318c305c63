@@ -1,0 +1,17 @@
+package com.app.java;
+
+import junit.framework.TestCase;
+
+public class MyLibraryTest extends TestCase {
+	MyLibrary myLib=new MyLibrary();
+	String[] myBookList={ "Java", "Sql", "AngularJs" };
+
+	public final void testBookList() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	public final void testAddBook() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

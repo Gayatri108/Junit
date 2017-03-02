@@ -1,0 +1,30 @@
+package com.test.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.rules.TestName;
+
+import com.java.app.Calculator;
+
+
+public class Demo1 {
+	Calculator cal=new Calculator();
+	
+
+	@Test
+	public final void testSum() {
+		System.out.println("Inside"+new TestName().getMethodName());
+		assertEquals(10, cal.sum(5, 5));
+	}
+@Category({Slow.class})
+	@Test
+	public final void testSub() {
+	System.out.println("Inside"+new TestName().getMethodName());
+	assertEquals(0, cal.sub(5, 5));
+
+		
+	}
+
+}

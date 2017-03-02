@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorTest (3)" project="unit-testing-example-7" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.java.Test.CalculatorTest" time="0.031">
+    <testsuite name="[0]" time="0.031">
+      <testcase name="testSum[0]" classname="com.java.Test.CalculatorTest" time="0.031"/>
+    </testsuite>
+    <testsuite name="[1]" time="0.0">
+      <testcase name="testSum[1]" classname="com.java.Test.CalculatorTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[2]" time="0.0">
+      <testcase name="testSum[2]" classname="com.java.Test.CalculatorTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>

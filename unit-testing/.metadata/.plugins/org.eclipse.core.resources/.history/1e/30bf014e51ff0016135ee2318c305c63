@@ -1,0 +1,16 @@
+package com.java.app;
+
+import java.util.ArrayList;
+
+public class Employee {
+	ArrayList<String> name=new ArrayList<String>();
+	public ArrayList add()
+	{
+		name.add("RK");
+		name.add("GS");
+		name.add("Rs");
+		System.out.println(name);
+		return name;
+	}
+
+}

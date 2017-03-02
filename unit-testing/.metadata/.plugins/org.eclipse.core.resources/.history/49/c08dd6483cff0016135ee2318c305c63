@@ -1,0 +1,12 @@
+package com.java.app;
+
+import static org.junit.Assert.*;
+
+public class Test {
+
+	@org.junit.Test
+	public final void test() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

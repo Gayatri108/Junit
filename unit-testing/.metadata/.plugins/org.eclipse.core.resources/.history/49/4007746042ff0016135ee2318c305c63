@@ -1,0 +1,13 @@
+package com.java.app;
+
+import java.util.Arrays;
+
+public class City {
+	public String[] addCity()
+	{
+		String city[]={"BLR","HYB","BBSR"};
+		System.out.println("Name of the city is:"+Arrays.toString(city));
+		return city;
+	}
+
+}

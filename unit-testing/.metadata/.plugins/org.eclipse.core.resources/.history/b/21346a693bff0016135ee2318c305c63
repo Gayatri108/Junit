@@ -1,0 +1,6 @@
+package com.java.app;
+
+public class Stationary {
+	String[] stationaryName={"Books","NoteBooks","Pencils"};
+
+}

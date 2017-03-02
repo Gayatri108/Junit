@@ -1,0 +1,15 @@
+package com.app.java;
+
+import junit.framework.TestCase;
+
+public class MyLibraryTest extends TestCase {
+
+	public final void testBookList() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	public final void testAddBook() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

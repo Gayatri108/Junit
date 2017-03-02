@@ -1,0 +1,26 @@
+package com.java.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.junit.rules.TestName;
+
+public class StudentTest {
+	Student std=new Student();
+	String[] sname={"Aditi","Ram","Sanju"};
+	String[] sname1={"Aditi","Ram","Sanju","Roja"};
+@Category{Slow.class}
+	@Test
+	public final void testDisplayName() {
+		System.out.println("Inside:"+new TestName().getMethodName());
+		assertArrayEquals(sname, std.displayName());
+	}
+
+	@Test
+	public final void testAddName() {
+		System.out.println("Inside:"+new TestName().getMethodName());
+		assertArrayEquals(std, sname1.ad);
+	}
+
+}

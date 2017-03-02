@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorTest (2)" project="unit-testing-example-5" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.test.java.CalculatorTest" time="0.0">
+    <testcase name="testAdd" classname="com.test.java.CalculatorTest" time="0.0"/>
+    <testcase name="testDiv" classname="com.test.java.CalculatorTest" time="0.0"/>
+    <testcase name="testMul" classname="com.test.java.CalculatorTest" time="0.0"/>
+    <testcase name="testSub" classname="com.test.java.CalculatorTest" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,20 @@
+package com.test.app;
+
+import static org.junit.Assert.*;
+/*This is the test class of Employee.java*/
+
+import org.junit.Test;
+
+import com.java.app.Employee;
+
+public class EmployeeTest {
+	Employee list = new Employee();
+	String name[] = { "RK", "GS", "RS", "RKP" };
+
+	@Test
+	public final void testAddName() {
+		System.out.println("Inside testAddName() method");
+		assertArrayEquals(name, list.addName());
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.test.java;
+
+import static org.junit.Assert.*;
+
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.TestName;
+
+import com.java.app.Department;
+
+import static org.junit.Assert.assertArrayEquals;
+import junit.framework.TestCase;
+
+public class DepartmentTest {
+	Department dept=new Department();
+	String[] dept_name_1={"IT","FINANCE","HR"};
+	String[] dept_name_2={"IT","FINANCE","HR","Research"};
+	@Rule
+	TestName testName=new TestName();
+
+	@Test
+	public final void testDisplayDept() {
+		System.out.println("Inside: "+testName.getMethodName());
+		
+	
+	}
+
+	@Test
+	public final void testAddDept() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

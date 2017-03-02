@@ -1,0 +1,15 @@
+package com.test.app;
+
+import junit.framework.TestCase;
+
+public class DepartmentTest extends TestCase {
+
+	public final void testDisplayId() {
+		
+	}
+
+	public final void testDisplayName() {
+		
+	}
+
+}

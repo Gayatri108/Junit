@@ -1,0 +1,13 @@
+package com.java.app;
+
+public class Demo {
+	public void dispalyJavaBook()
+	{
+		System.out.println("Inside dispalyBook() method");
+	}
+	public void displaySqlBook()
+	{
+		System.out.println("Inside displaySqlBook() method");
+	}
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ClassA" project="unit-testing-example-9" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.test.java.ClassA" time="0.015">
+    <testcase name="test_a_1" classname="com.test.java.ClassA" time="0.015"/>
+    <testcase name="test_a_2" classname="com.test.java.ClassA" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,19 @@
+package com.java.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CourseTest {
+
+	@Test
+	public final void testDisplayCourse() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testAddCourse() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

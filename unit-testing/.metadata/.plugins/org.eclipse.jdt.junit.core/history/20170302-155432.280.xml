@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AllTests (1)" project="unit-testing-example-6" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.test.app.AllTests" time="0.0">
+    <testsuite name="com.test.app.CityTest" time="0.0">
+      <testcase name="testAddCity" classname="com.test.app.CityTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="com.test.app.EmployeeTest" time="0.0">
+      <testcase name="testAddName" classname="com.test.app.EmployeeTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,20 @@
+package com.test.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+
+public class Demo2 {
+@Category({Slow.class,Fast.class})
+	@Test
+	public final void testMul() {
+		fail("Not yet implemented"); // TODO
+	}
+@Category({Fast.class})
+	@Test
+	public final void testDiv() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

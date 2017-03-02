@@ -1,0 +1,12 @@
+package com.test.app;
+
+import org.junit.experimental.categories.Categories.ExcludeCategory;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite.SuiteClasses;
+
+@RunWith(Catagories.class)
+@ExcludeCategory({Slow.class})
+@SuiteClasses({ Demo1.class, Demo2.class })
+public class AllTests {
+
+}

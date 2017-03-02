@@ -1,0 +1,23 @@
+package com.java.app;
+
+import java.util.Arrays;
+
+public class Employee {
+	
+	public String[] addCity()
+	{
+		String city[]={"BLR","HYB","BBSR"};
+		System.out.println("Name of the city is:"+Arrays.toString(city));
+		return city;
+	}
+	public String[] addName()
+	{
+		String name[]={"JULY","ROSY","RICKY"};
+		System.out.println("Name of the employee's are:"+Arrays.toString(name));
+		return name;
+	}
+		
+		
+	}
+
+

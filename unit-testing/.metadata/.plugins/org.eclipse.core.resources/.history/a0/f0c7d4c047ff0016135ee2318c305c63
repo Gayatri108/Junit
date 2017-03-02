@@ -1,0 +1,13 @@
+package com.test.app;
+
+import org.junit.experimental.categories.Categories.IncludeCategory;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
+
+@RunWith(Suite.class)
+@IncludeCategory({Slow.Test})
+@SuiteClasses({ Demo1.class, Demo2.class })
+public class AllTests {
+
+}

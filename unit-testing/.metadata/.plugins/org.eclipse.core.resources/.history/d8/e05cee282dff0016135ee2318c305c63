@@ -1,0 +1,22 @@
+package com.app.java;
+
+import static org.junit.Assert.assertArrayEquals;
+import junit.framework.TestCase;
+
+public class MyLibraryTest extends TestCase {
+	MyLibrary myLib=new MyLibrary();
+	String[] myBookList_1={ "Java", "Sql", "AngularJs" };
+	String[] myBookList_2={ "Java", "Sql", "AngularJs", "Hadoop" };
+
+	public final void testBookList() {
+		System.out.println("inside testBookList()");
+		assertArrayEquals(myBookList_1,myLib.bookList());
+		System.out.println();
+	}
+
+	public final void testAddBook() {
+		System.out.println("Inside testAddBook()");
+		assertArrayEquals(myBookList_2, myLib.addBook());
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.java.app;
+
+public class Calculator {
+	public int sum(int i,int j)
+	{
+		System.out.println("Addition of two numbers"+i+ "and "+j+" is");
+		return i+j;
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.test.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import static org.hamcrest.CoreMatchers.is;
+
+public class Demo1 {
+	
+
+	@Test
+	public final void testSum() {
+		fail("Not yet implemented"); // TODO
+	}
+@Category{Slow.class}
+	@Test
+	public final void testSub() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

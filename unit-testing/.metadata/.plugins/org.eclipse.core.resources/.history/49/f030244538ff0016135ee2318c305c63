@@ -1,0 +1,19 @@
+package com.test.java;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class DepartmentTest {
+
+	@Test
+	public final void testDisplayDept() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testAddDept() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

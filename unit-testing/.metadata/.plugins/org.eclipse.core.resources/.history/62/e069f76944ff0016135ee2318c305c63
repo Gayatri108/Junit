@@ -1,0 +1,19 @@
+package com.java.app;
+
+import java.util.Arrays;
+
+public class Student {
+public String[] displayName()
+{
+	String[] name={"Aditi","Ram","Sanju"};
+	System.out.println("Name of Students are"+Arrays.toString(name));
+	return name;
+}
+public String[] addName()
+{
+	String[] name={"Aditi","Ram","Sanju","Roja"};
+	System.out.println("Name of Students are"+Arrays.toString(name));
+	return name;
+}
+
+}

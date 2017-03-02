@@ -1,0 +1,17 @@
+package com.java.app;
+
+public class Department {
+	String deptId="d-101";
+	String deptName="IT";
+	public String displayId()
+	{
+		System.out.println("Dept id:");
+		return deptId;
+	}
+	public String displayName()
+	{
+		System.out.println("Dept Name");
+		return deptName;
+	}
+
+}

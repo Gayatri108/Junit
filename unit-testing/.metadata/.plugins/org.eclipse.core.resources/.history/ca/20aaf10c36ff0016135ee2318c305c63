@@ -1,0 +1,19 @@
+package com.test.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class DemoTest {
+
+	@Test
+	public final void testDispalyJavaBook() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testDisplaySqlBook() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

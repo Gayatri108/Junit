@@ -1,0 +1,14 @@
+package com.test.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CityTest {
+
+	@Test
+	public final void testAddCity() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

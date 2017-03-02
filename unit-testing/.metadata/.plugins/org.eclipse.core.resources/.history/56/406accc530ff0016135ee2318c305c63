@@ -1,0 +1,14 @@
+package com.test.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class EmployeeTest {
+
+	@Test
+	public final void testAddName() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.test.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.TestName;
+
+public class DemoTest {
+	 @Rule
+	 public TestName name = new TestName();
+
+
+	@Test
+	public final void testDispalyJavaBook() {
+	System.out.println(name.getMethodName());
+	assertEquals("testDispalyJavaBook", name.getMethodName());
+
+		
+	}
+
+	@Test
+	public final void testDisplaySqlBook() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

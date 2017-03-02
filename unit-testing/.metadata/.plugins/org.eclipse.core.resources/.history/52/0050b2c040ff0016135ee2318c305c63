@@ -1,0 +1,20 @@
+package com.java.app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+
+public class StudentTest {
+@Category{Fast.class}
+	@Test
+	public final void testDisplayName() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public final void testAddName() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}

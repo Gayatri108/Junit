@@ -1,0 +1,14 @@
+package com.java.app;
+
+public class Employee {
+	public void displayA()
+	{
+		
+	}
+	public void displayB()
+	{
+		
+	}
+	
+
+}

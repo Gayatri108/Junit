@@ -1,0 +1,21 @@
+package com.test.app;
+
+import com.java.app.Department;
+
+import junit.framework.TestCase;
+
+public class DepartmentTest extends TestCase {
+	Department deptInfo=new Department();
+	
+
+	public final void testDisplayId() {
+		
+		assertEquals(deptInfo.setDeptId("dept");, actual);
+		
+	}
+
+	public final void testDisplayName() {
+		
+	}
+
+}
